@@ -1,0 +1,270 @@
+
+
+header{
+    /* background: rgba(0, 0, 0, 0.32); */
+    background:#102342;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+header .header-main{
+    position: relative;
+    padding-top: 5px;
+}
+header .header-main .header-main:before {background:none;}
+header .call-now-section{
+    background: #f7f7f7;
+    padding: 23px 0px;
+}
+header .call-now-section i {
+
+    height:28px;
+    width:41px;
+    display: inline-block;
+    vertical-align: middle;
+}
+header .navbar-brand{
+    margin-top: -5px;
+    padding: 15px 15px;
+}
+header .call-now-section .mail-icon{
+    background-position: 0 0;
+}
+header .call-now-section .phone-icon{
+    background-position: -39px 0;
+}
+header .call-now-section span{
+    display: inline-block;
+    vertical-align: middle;
+}
+header .main-navbar ul{
+    padding: 0px;
+}
+header .main-navbar ul li {
+    
+    font-family:'Poppins', sans-serif;
+    padding: 0px 15px 0px 0px;
+    font-weight: 600;
+    
+}
+header .main-navbar ul li a {
+    color: #e7e7e7 !important;
+    padding:  2px 10px;
+    position: relative;
+}
+
+header .main-navbar ul li a.btn-primary{
+    background: #ffdd00 !important;
+    color: #555555 !important;
+    font-size: 14px;
+    padding:  5px 20px !important;
+    border-radius:500px;
+    border:none;
+    font-weight: 500;
+}
+header .main-navbar .dropdown-toggle::after{
+    display: none;
+}
+header .main-navbar .dropdown:hover>.dropdown-menu {
+    display: block;
+    border-radius: 0px;
+}
+header .main-navbar ul li a{
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+}
+header .main-navbar ul li:hover li a:before {
+    background-image: none;
+}
+header .main-navbar ul li:hover li {
+    border-bottom:none;
+}
+header .main-navbar .dropdown .dropdown-menu {
+    background-color:#eee !important;
+    color:#fff !important;
+    margin: 0px 0 0;
+    padding-left: 0;
+    border:none;
+    width:auto;
+}
+header .main-navbar .dropdown .dropdown-menu  li{
+    padding: 0px;
+    color:#000 !important;
+    
+}
+header .main-navbar .dropdown .dropdown-menu  li a{
+    padding:10px 20px 10px 10px !important;
+    color:#000 !important;
+    font-size: 13px !important;
+    top: 0px;
+}
+header .main-navbar .dropdown:hover>.dropdown-menu  a,header .main-navbar .dropdown >.dropdown-menu  a{
+    
+    color:#000 !important;
+}
+header .secondary-header a{
+    color:#fff;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    font-size: 13px;
+}
+header .input-group{
+    padding:10px 0px 10px 5px !important;
+    width: 160px;
+    border-radius: 40px;
+    position: relative;
+}
+header .input-group .form-control{
+  
+    border-radius: 40px !important;
+    font-size: 13px;
+    color: #00316e !important;
+    box-shadow: none;
+}
+header .input-group .btn {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 100;
+    border-radius: 40px !important;
+    background: none !important;
+}
+@media screen and (max-width:1200px) and (min-width:992px){
+    header .call-now-section{
+        background:transparent;
+    }
+    header .call-now-section i {
+        height: 28px;
+        width: 40px;
+    }
+    header .call-now-section .phone-icon {
+        background-position: -47px 0;
+        width: 27px;
+    }
+    header .call-now-section a {
+        font-size: 0.8em;
+    }
+
+
+}
+
+@media screen and (max-width:991px) and (min-width:768px){
+   
+    header .header-main{
+        padding: 0px;
+    }
+    header .header-main .navbar-brand{
+        width: 220px;
+    }
+    header .header-main .collapse{
+        display: block;
+    }
+    header .header-main .collapse ul.navbar-nav{
+        float: right;
+        background: transparent;
+        padding-right: 9px;
+    }
+    header .main-navbar ul li {
+        font-family:'Poppins', sans-serif;
+        padding: 0px 8px 0px 0px;
+        width: auto;
+    }
+    header .main-navbar ul li a{
+        font-size: 14px;
+    }
+    header .main-navbar {
+        background-color: transparent !important;
+        border-top: 1px solid transparent;
+        
+    }
+    header .navbar-nav {
+        flex-direction: unset;
+    }
+    header .main-navbar  .nav-link {
+        color: rgba(0,0,0,.5) !important;
+    }
+    header .main-navbar .navbar{
+        padding: 0px 15px;
+    }
+   header .navbar-toggler{
+       padding: 10px;
+       border:none;
+
+   }
+   header .navbar-toggler:focus{
+       outline: none;
+   }
+   
+}
+
+@media screen and (max-width:767px){
+    .main-panel {
+        padding: 15px 0px;
+    }
+    header {
+            
+        }
+        header .header-main{
+            padding: 0px;
+            box-shadow: 0px 0px 10px -7px rgba(0,0,0,0.5);
+        }
+        header .header-main .navbar-brand {
+            width: 226px;
+        }
+        header .header-main .collapse{
+            display: none;
+        }
+        header .header-main .collapse.show{
+            display: block;
+        }
+        header .header-main .collapse ul.navbar-nav.collapse{
+            display: block;
+            background: #fff;
+            padding-right: 9px;
+        }
+        header .header-main .collapse ul.navbar-nav .nav-item,header .header-main .collapsing ul.navbar-nav .nav-item,header .header-main .collapsed ul.navbar-nav .nav-item{
+            width: auto;
+            padding: 7px 15px;
+        }
+        header .main-navbar  .nav-link {
+            color: rgba(0,0,0,.5) !important;
+        }
+        header .main-navbar .navbar{
+            padding: 0px 15px;
+        }
+        header .main-navbar li {
+            border-bottom: 1px solid #0d2956;
+        }
+       header .navbar-toggler{
+           padding: 10px;
+           border:none;
+    
+       }
+       header .navbar-toggler:focus{
+           outline: none;
+       }
+    
+       
+    header .main-navbar .dropdown:hover>.dropdown-menu {
+        display: none;
+    }
+    header .main-navbar .dropdown.show>.dropdown-menu {
+        display: block !important;
+        width: 100%;
+        border: none;
+        padding-left: 0px;
+    }
+     header .dropdown .fa-plus:before {
+        content: "\f067";
+    }
+     header .dropdown.show .fa-plus:before {
+        content: "\f068";
+    }
+    header .main-navbar ul li:hover a:before, header .main-navbar ul li a:before{
+        display:none;
+    }
+    header .main-navbar .dropdown:hover>.dropdown-menu  a{
+        color:#666 !important;
+    }
+}
