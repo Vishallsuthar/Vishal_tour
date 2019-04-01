@@ -1,0 +1,41 @@
+section.home-main-banner{
+    background: url(src/assets/images/home-banner.jpg);
+    min-height: 600px;
+}
+.heading-main{
+    font-weight: 300;
+    margin-top: 70px;
+}
+
+@media screen and (max-width:1200px) and (min-width:992px){
+    .heading-main{
+        font-weight: 300;
+        margin-top: 70px;
+        font-size: 48px;
+    }
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    .heading-main{
+        font-weight: 300;
+        margin-top: 70px;
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:767px){
+    section.home-main-banner{
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+    .heading-main{
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:576px){
+    .heading-main{
+        font-weight: 500;
+        font-size: 24px;
+    }
+}

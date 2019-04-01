@@ -1,9 +1,6 @@
 
 
 
-section.home-main-banner{
-    background: url(src/assets/images/home-banner.jpg);
-}
 
 
 body{
@@ -32,6 +29,13 @@ body{
     background: #ffdd00 !important;
     border-color: #ffdd00 !important;
     color:#555555 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    opacity: 1;
+}
+.btn-primary:hover{
+    opacity: 0.9;
+    background: #ffee00 !important;
 }
 .text-primary{
     color:#ffdd00 !important;
@@ -48,7 +52,6 @@ body{
 .heading-main{
     font-size: 48px;
     color:#6b6f72;
-    text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
     font-weight: 600;
